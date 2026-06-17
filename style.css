@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    text-shadow:
+    0 0 5px rgba(255,255,255,0.5),
+    0 0 10px rgba(0,0,0,0.3);
+}
+
+#display {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.b {
+
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.b:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+#area {
+    border: 5px solid rgb(255, 254, 254);
+    padding: 60px;
+    border-radius: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+}
+
+.b:nth-child(3)
+
+/* this is third child of area Id*/
+    {
+    background: #12ac4b;
+    color: white;
+}
+
+.b:nth-child(4)
+
+/* this is fourth child of area Id*/
+    {
+    background: #ef4444;
+    color: white;
+}
+
+.b:nth-child(5)
+
+/* this is fifth child of area Id*/
+    {
+    background: #f59e0b;
+    color: white;
+}
+
+#lapbtn {
+    background: #3b82f6;
+    color: white;
+}
+
+#lap-container {
+    margin-top: 25px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#laps li {
+    margin: 8px 0;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
